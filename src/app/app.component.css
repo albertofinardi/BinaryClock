@@ -1,6 +1,5 @@
 .parent {
   display: grid;
-
   margin: 0px;
   margin-top: 40vh;
   grid-template-columns: repeat(24, 1fr);
@@ -88,10 +87,13 @@
   background-color: #454545;
   border-radius: 50%;
   display: inline-block;
+  transition: background-color, transform .3s ease-in;
+  
 }
 
 .active {
   background-color: #f2c249;
+  transform: scale(1.1);
 }
 
 .footer {
